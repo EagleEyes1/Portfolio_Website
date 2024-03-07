@@ -1,0 +1,120 @@
+.content {
+    background-color: #2c2d32;
+    /* height: 200vh; */
+    overflow-y: hidden;
+    /* padding-top: 120px; */
+    padding: 0 100px 0 100px !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .more {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .homename, .homeimg, .homedesc {
+        text-align: center;
+    }
+
+    .images {
+        width: 55vw !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .images {
+        width: 55vw !important;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .name {
+        /* text-align: center !important; */
+        font-size: 40px !important;
+    }
+
+    .more p {
+        padding-bottom: 200px !important;
+    }
+
+    .bcontact {
+        font-weight: 700;
+        padding: 15px 20px 15px 20px !important;
+    }
+}
+
+.name {
+    padding-top: 110px;
+    font-size: 60px;
+    font-weight: 1000;
+    color: #dce5e5;
+}
+
+.dot {
+    line-height: 0%;
+    font-size: 50px;
+    color: #d1bda0;
+}
+
+.line {
+    width: 80%;
+    border-top: 2px solid #d1bda0;
+    opacity: 100%;
+}
+
+.line:hover {
+    width: 30%;
+    transition: .8s all ease-in-out;
+}
+
+.bcontact {
+    padding: 15px 70px 15px 70px;
+    font-size: 18px;
+    /* width: 240px; */
+    background-color: transparent;
+    outline: none;
+    color: #d1bda0;
+    border: 2px solid #d1bda0;
+    box-shadow: none;
+}
+
+.bcontact:hover {
+    border-radius: 10px;
+    color: #d1bda0;
+    transition: .3s all ease-in-out;
+    background-color: #323338;
+}
+
+.titlejob {
+    padding-top: 110px;
+}
+
+.titlejob h5 {
+    font-size: 30px;
+    color: #d1bda0;
+}
+
+.titlejob h3 {
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 10px;
+    color: #dce5e5;
+}
+
+.descjob {
+    color: #dce5e5;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.more {
+    cursor: pointer;
+    padding-top: 10px;
+    color: #d1bda0;
+}
+
+.more:hover {
+    transition: all .1s ease-in-out;
+    font-size: 16.5px;
+}
