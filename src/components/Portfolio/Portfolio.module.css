@@ -117,9 +117,19 @@
     padding-top: 80px;
 }
 
+@media only screen and (max-width: 1400px) {
+    .portcontent {
+        height: 160vh !important;
+    }
+
+    .imgcontent {
+        padding-top: 70px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .portcontent {
-        height: 100vh;
+        height: 100vh !important;
     }
 
     .imgcontent {

@@ -103,6 +103,12 @@
     -moz-box-shadow: 2px 1px 23px 4px rgba(209, 189, 160, 0.26);
 }
 
+@media only screen and (max-width: 1400px) {
+    .contcontent {
+        height: 120vh !important;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .contactimg img {
         padding-top: 190px !important;
