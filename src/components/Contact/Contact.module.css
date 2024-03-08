@@ -115,6 +115,7 @@
     }
 
     .contactimg img {
+        width: 55vw !important;
         padding-top: 0px !important;
     }
 
@@ -123,23 +124,39 @@
     }
 
     .contcontent {
-        height: 130vh;
+        height: 130vh !important;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .contactimg img {
-        width: 55vw !important;
+    .floatform {
+        padding-bottom: 110px !important;
+    }
+
+    .contcontent {
+        height: 115vh !important;
     }
 }
 
 @media only screen and (max-width: 576px) {
+    .contactimg img {
+        width: 75vw !important;
+    }
+
+    .contcontent {
+        height: 105vh !important;
+    }
+
     .floatform {
         padding: 100px 50px 100px 50px !important;
     }
 }
 
 @media only screen and (max-width: 376px) {
+    .contcontent {
+        height: 90vh !important;
+    }
+
     .floatform {
         padding: 100px 50px 100px 50px !important;
     }
