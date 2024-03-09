@@ -118,6 +118,12 @@
     padding-top: 80px;
 }
 
+@media only screen and (max-width: 1600px) {
+    .portcontent {
+        height: 110vh !important;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .portcontent {
         height: 160vh !important;
