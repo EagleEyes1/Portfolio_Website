@@ -160,7 +160,7 @@
 
 @media only screen and (max-width: 376px) {
     .contcontent {
-        height: 90vh !important;
+        height: 100vh !important;
     }
 
     .floatform {

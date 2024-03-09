@@ -149,7 +149,7 @@
     }
 
     .portcontent {
-        height: 140vh;
+        height: 140vh !important;
     }
 
     .imgcontent {
@@ -190,7 +190,7 @@
 
 @media only screen and (max-width: 376px) {
     .portcontent {
-        height: 140vh;
+        height: 140vh !important;
     }
 }
 
