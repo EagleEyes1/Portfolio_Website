@@ -1,5 +1,6 @@
 .portcontent {
     background-color: #2c2d32;
+    overflow-x: hidden;
     height: 89.5vh;
 }
 
@@ -190,7 +191,7 @@
 
 @media only screen and (max-width: 376px) {
     .portcontent {
-        height: 140vh !important;
+        height: 160vh !important;
     }
 }
 
