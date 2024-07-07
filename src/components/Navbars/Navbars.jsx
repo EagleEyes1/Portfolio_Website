@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import styles from "./Navbars.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useLocation } from "react-router-dom";
 import { faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Navbars = () => {
+  const location = useLocation();
+
   return (
     <Navbar expand="lg" className={styles.navbar}>
       <Container fluid className="ps-5 pe-5">
@@ -20,13 +23,28 @@ const Navbars = () => {
         />
         <Navbar.Collapse id="navbarScroll">
           <Nav className={styles.collapselink} navbarScroll>
-            <Nav.Link className={styles.navhome} href="/">
+            <Nav.Link
+              href="/"
+              className={`${styles.navhome} ${
+                location.pathname === "/" ? styles.active : ""
+              }`}
+            >
               Home
             </Nav.Link>
-            <Nav.Link className={styles.navport} href="/portfolio">
+            <Nav.Link
+              href="/portfolio"
+              className={`${styles.navport} ${
+                location.pathname === "/portfolio" ? styles.active : ""
+              }`}
+            >
               Portfolio
             </Nav.Link>
-            <Nav.Link className={styles.navcontact} href="/contact">
+            <Nav.Link
+              href="/contact"
+              className={`${styles.navcontact} ${
+                location.pathname === "/contact" ? styles.active : ""
+              }`}
+            >
               Contact
             </Nav.Link>
           </Nav>

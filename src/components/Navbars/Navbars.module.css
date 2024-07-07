@@ -1,5 +1,6 @@
 .navbar {
     background-color: #2c2d32;
+    overflow: visible;
 }
 
 .navbutton {
@@ -42,6 +43,19 @@
 .navhome, .navport, .navcontact {
     border-radius: 10px;
     color: #dce5e5 !important;
+    position: relative;
+}
+
+.navhome.active::after, .navport.active::after, .navcontact.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: #dce5e5;
+    transition: width 0.3s, left 0.3s;
 }
 
 .navslash, .navlinkedin, .navinsta {
