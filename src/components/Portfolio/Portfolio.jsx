@@ -162,7 +162,7 @@ const Portfolio = () => {
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/13kQmkvTp0Ok5DYRFW9YlPSRg0_Fffp_Z/view?usp=sharing",
+                  "https://drive.google.com/file/d/1hR1zHnLbgUazfLCKtvOao19bqfME09aK/view?usp=sharing",
                   "rel=noopener noreferrer"
                 )
               }
@@ -173,7 +173,7 @@ const Portfolio = () => {
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/13RZqZF5T763M9zoPplMnJQKz5TC_Lntm/view?usp=sharing",
+                  "https://drive.google.com/file/d/1pSmkNP69TGMxTZ1N---mH1VHwarZzT7l/view?usp=sharing",
                   "rel=noopener noreferrer"
                 )
               }
