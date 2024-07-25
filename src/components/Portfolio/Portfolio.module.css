@@ -40,10 +40,57 @@
     height: 300px;
 }
 
+.imgswipeandro {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+}
+
+.imgswipeandro img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blockimgandro button {
+    font-size: 15px;
+    font-weight: 800;
+    background-color: #d1bda0;
+    border: transparent;
+}
+
+.blockimgandro {
+    z-index: 999;
+    position: absolute;
+    padding: 18px 0 0px 18px;
+}
+
 .blockimg {
     z-index: 999;
     position: absolute;
     padding: 18px 0 0px 18px;
+}
+
+.blockimgandro button:hover {
+    border: transparent;
+    background-color: #d1bda0;
+    scale: 1.03;
+}
+
+.blockimgandro:hover {
+    width: 100%;
+    height: 100%;
+    transition: .5s all ease-in-out;
+    /* padding: 27% 0 0 40%; */
+    backdrop-filter: blur(.8px);
+
 }
 
 .blockimg button {

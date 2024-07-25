@@ -134,6 +134,25 @@ const Portfolio = () => {
                   </Button>
                 </div>
               </SwiperSlide>
+              <SwiperSlide className={styles.imgswipeandro}>
+                <img
+                  src={require("../../assets/images/mock4.png")}
+                  alt="mock4"
+                />
+                <div className={styles.blockimgandro}>
+                  <Button
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/MovieAppProgate/Kelompok9_MovieApp",
+                        "rel=noopener noreferrer"
+                      )
+                    }
+                    variant="primary"
+                  >
+                    Check Code
+                  </Button>
+                </div>
+              </SwiperSlide>
               <div className={styles.autoplayprogress} slot="container-end">
                 <svg viewBox="0 0 48 48" ref={progressCircle}>
                   <circle cx="24" cy="24" r="20"></circle>
