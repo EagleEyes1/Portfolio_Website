@@ -35,7 +35,7 @@ const Portfolio = () => {
         <Col lg={12} md={12} sm={12}>
           <div className={styles.headport} data-aos="fade-down">
             <h4>Portfolio</h4>
-            <h1>My Masterpiece Project</h1>
+            <h1>My Project</h1>
           </div>
           <div className={styles.swiper} data-aos="zoom-in">
             <Swiper
