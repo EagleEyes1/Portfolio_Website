@@ -55,13 +55,15 @@ const Home = () => {
         <Col lg={3} md={12} sm={12} className={styles.homedesc}>
           <div className={styles.titlejob} data-aos="fade-left">
             <h5>Introduction</h5>
-            <h3>Front End Developer</h3>
+            <h3>FullStack Developer</h3>
           </div>
           <div className={styles.descjob} data-aos="fade-left">
             <p>
-              I'm a recent graduate specializing in front-end development,
-              equipped with a strong grasp of ReactJs. While I may be new to the
-              field, I bring a fresh perspective and a hunger to learn and grow.
+              I am a recent graduate specializing in front-end as well as
+              back-end development, I have a strong understanding of Flutter and
+              ReactJs to React Native. I can also make RestAPI and consume it.
+              Although I may be new to this field, I bring a new perspective and
+              a hunger to learn and grow.
             </p>
           </div>
           <div className={styles.more} data-aos="fade-left">
