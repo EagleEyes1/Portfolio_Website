@@ -172,16 +172,17 @@ const Portfolio = () => {
           </div>
           <div className={styles.titlep} data-aos="fade-right">
             <p>
-              I am proficient in the process of creating websites with the
-              reactjs library. below I attach two forms of my cv, please feel
-              free to check.
+              I am proficient in the process of creating application websites in
+              the form of android, ios, or web. I can use flutter, reactjs, and
+              can create RestAPI and consume it. below I attach two forms of my
+              cv, please feel free to check.
             </p>
           </div>
           <div className={styles.cvbutton} data-aos="fade-right">
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1l7TQzxFTYvINqhBKzOpqcxbMGCkRd-xj/view?usp=sharing",
+                  "https://drive.google.com/file/d/1QKeo3SqxASV3Snh9jMmAGpv-KsH6MTBi/view?usp=sharing",
                   "rel=noopener noreferrer"
                 )
               }
@@ -192,7 +193,7 @@ const Portfolio = () => {
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1xViZ0CE5KQBFFON6MOa7Q-SBxv9MjWMz/view?usp=sharing",
+                  "https://drive.google.com/file/d/1p38ZMBEPQT9JM71Cjj-fUWoslMP1gCUZ/view?usp=sharing",
                   "rel=noopener noreferrer"
                 )
               }
