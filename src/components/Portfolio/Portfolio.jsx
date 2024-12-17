@@ -117,14 +117,14 @@ const Portfolio = () => {
               </SwiperSlide>
               <SwiperSlide className={styles.imgswipe}>
                 <img
-                  src={require("../../assets/images/mock3.png")}
+                  src={require("../../assets/images/mock5.png")}
                   alt="mock3"
                 />
                 <div className={styles.blockimg}>
                   <Button
                     onClick={() =>
                       window.open(
-                        "https://github.com/EagleEyes1/LSP_Website",
+                        "https://github.com/EagleEyes1/naktaraso",
                         "rel=noopener noreferrer"
                       )
                     }
