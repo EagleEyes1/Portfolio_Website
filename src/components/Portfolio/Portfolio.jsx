@@ -95,6 +95,20 @@ const Portfolio = () => {
                     Check Code
                   </Button>
                 </div>
+                <div className={styles.blocklink}>
+                  <Button
+                    onClick={() =>
+                      window.open(
+                        "https://mini-project-omega.vercel.app/",
+                        "_blank",
+                        "noopener noreferrer"
+                      )
+                    }
+                    variant="primary"
+                  >
+                    Visit Site
+                  </Button>
+                </div>
               </SwiperSlide>
               <SwiperSlide className={styles.imgswipe}>
                 <img
@@ -114,6 +128,20 @@ const Portfolio = () => {
                     Check Code
                   </Button>
                 </div>
+                <div className={styles.blocklink}>
+                  <Button
+                    onClick={() =>
+                      window.open(
+                        "https://tescapstonewebsite.vercel.app/",
+                        "_blank",
+                        "noopener noreferrer"
+                      )
+                    }
+                    variant="primary"
+                  >
+                    Visit Site
+                  </Button>
+                </div>
               </SwiperSlide>
               <SwiperSlide className={styles.imgswipe}>
                 <img
@@ -131,6 +159,20 @@ const Portfolio = () => {
                     variant="primary"
                   >
                     Check Code
+                  </Button>
+                </div>
+                <div className={styles.blocklink}>
+                  <Button
+                    onClick={() =>
+                      window.open(
+                        "https://naktaraso.com/",
+                        "_blank",
+                        "noopener noreferrer"
+                      )
+                    }
+                    variant="primary"
+                  >
+                    Visit Site
                   </Button>
                 </div>
               </SwiperSlide>
