@@ -217,7 +217,7 @@ const Portfolio = () => {
               I am proficient in the process of creating application websites in
               the form of android, ios, or web. I can use flutter, reactjs, and
               can create RestAPI and consume it. below I attach two forms of my
-              cv, please feel free to check.
+              cv, please feel free to check. blablablabla
             </p>
           </div>
           <div className={styles.cvbutton} data-aos="fade-right">
